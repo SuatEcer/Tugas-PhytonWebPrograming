@@ -128,7 +128,7 @@ else:
 st.title('6. Media Element')
 
 # Image
-image = Image.open("./Horizon.jpg")
+image = Image.open("https://github.com/KyRzky/Tugas-PhytonWebPrograming/tree/main/Tugas3/Horizon.jpg")
 st.image(image, caption='Morning Horizon')
 
 # 7. Layout and Container
