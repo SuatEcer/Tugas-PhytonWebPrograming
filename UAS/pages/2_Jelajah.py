@@ -70,17 +70,17 @@ def footer():
         image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/220px-Coat_of_arms_of_Jakarta.svg.png',
               width=px(50), height=px(50)),
         br(),
-        link("https://dansunn-webdev-uashome-1t998i.streamlit.app/", "Home"),
+        link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/", "Home"),
         "-||-",
-        link("https://dansunn-webdev-uashome-1t998i.streamlit.app/Jelajah", "Jelajah"),
+        link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/Jelajah", "Jelajah"),
         "-||-",
-        link("https://dansunn-webdev-uashome-1t998i.streamlit.app/Tentang_Jakarta", "Tentang Jakarta"),
+        link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/Tentang_Jakarta", "Tentang Jakarta"),
         br(),
-        link("https://dansunn-webdev-uashome-1t998i.streamlit.app/Informasi_Covid-19", "Informasi Covid-19"),
+        link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/Data_Covid-19", "Informasi Covid-19"),
         "-||-",
-        link("https://dansunn-webdev-uashome-1t998i.streamlit.app/Profil_Pemerintahan", "Profil Pemerintahan"),
+        link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/Profil_Pemerintahan", "Profil Pemerintahan"),
         "-||-",
-        link("https://dansunn-webdev-uashome-1t998i.streamlit.app/Informasi_Penduduk", "Informasi Penduduk"),
+        link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/Data_Penduduk", "Informasi Penduduk"),
     ]
     layout(*myargs)
     
@@ -136,7 +136,6 @@ with main_container:
     st.markdown("<p style='text-align: justify; color:black;'>Berkunjung ke Taman Margasatwa Ragunan berarti memasuki sebuah hutan tropis mini, di dalamnya terdapat keanekaragaman hayati yang memiliki nilai konservasi tinggi dan menyimpan harapan untuk masa depan.</p>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: justify; color:black;'>Sebuah kebun binatang modern menampilkan suatu system ekologi yang lengkap yang bias menjadi satu sumber ilmu pengetahuan yang akan mengawali langkah pelestarian kehidupan alam liar. Singkatnya, kebun binatang adalah “Kapal Nuh” kita dalam menghadapi bencana dan kerusakan alam yang akhir-akhir ini sering terjadi. Bila nanti sudah tidak ada lagi hutan di bumi ini, paling tidak masih ada contoh-contoh makhluk yang menakjubkan ini di kebun binatang, entah itu telah berwujud satwa ataupun masih berbentuk embrio, sel atau DNA.</p>", unsafe_allow_html=True)
     
-    st.markdown('### 4. Dst')
 
 
 
