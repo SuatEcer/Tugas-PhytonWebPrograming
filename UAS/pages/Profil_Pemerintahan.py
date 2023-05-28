@@ -64,7 +64,7 @@ def layout(*args):
 
     st.markdown(str(foot), unsafe_allow_html=True)
 
-
+<div target="_self">
 def footer():
     myargs = [
         image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Jakarta.svg/220px-Coat_of_arms_of_Jakarta.svg.png',
@@ -83,6 +83,7 @@ def footer():
         link("https://kyrzky-tugas-phytonwebprograming-uashome-j0s5wd.streamlit.app/Data_Penduduk", "Informasi Penduduk", target="_self"),
     ]
     layout(*myargs)
+    </div>
     
 
 
