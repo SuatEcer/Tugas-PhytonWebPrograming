@@ -203,3 +203,33 @@ with main_container:
     elif first_choice == '2020K3':
         st.write(df2020K3)
         st.bar_chart(df2020K3)
+        
+    elif first_choice == '2020K4':
+        st.write(df2020K4)
+
+    elif first_choice == '2021K1':
+        st.write(df2021K1)
+
+    elif first_choice == '2021K2':
+        st.write(df2021K2)
+
+    elif first_choice == '2021K3':
+        st.write(df2021K3)
+
+    elif first_choice == '2021K4':
+        st.write(df2021K4)
+
+    elif first_choice == '2022K1':
+        st.write(df2022K1)
+
+    elif first_choice == '2022K2':
+        st.write(df2022K2)
+
+    elif first_choice == '2022K3':
+        st.write(df2022K3)
+
+    elif first_choice == '2022K4':
+        st.write(df2022K4)
+     
+    elif first_choice == '2023K1':
+        st.write(df2023K1)
